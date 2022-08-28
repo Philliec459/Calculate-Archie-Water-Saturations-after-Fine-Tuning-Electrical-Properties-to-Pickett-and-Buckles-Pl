@@ -10,4 +10,3 @@ Panel provides the type of tool that allows the user to fine-tune their analysis
 In this example well the interval at the bottom of the depth plot appears to be wet, but is it 100% Sw or does it contain some residual oil? We do not have residual fluid saturations from core to allow us to know if there is any residual oil saturations in the core from this interval, so we have made the assumption that the intervals is 100% water saturated for now. We have adjusted the m and Rw to give us 100% water saturations from logs for this lower interval.
 
 >![Panel_log](pickett_log_sats2.gif)
-![image](https://user-images.githubusercontent.com/56929340/187099270-a2c898ce-cb29-411a-8d26-fddf7da8fbdd.png)
