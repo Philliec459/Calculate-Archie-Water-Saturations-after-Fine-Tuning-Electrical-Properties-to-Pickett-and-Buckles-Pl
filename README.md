@@ -10,5 +10,8 @@ In the animated example below, we are calculating Archie water saturations from 
 Panel provides the type of interactivity that allows the user to fine-tune their analysis using the Pickett and Buckles plots. The Pickett plot is fundamental to our calculation of water saturations from conventional logs, and this tool will allow you to build a better understanding of your data and allow you to develop a better feel for the sensitivity of each parameter used in the Archie water saturation calculation.
 
 In this example well, the interval at the bottom of the depth plot appears to be wet. However, is this interval at 100% Sw or does it contain some residual oil? We do not have residual fluid saturations from core to allow us to determine if there is any residual oil saturations, so we have made the assumption that the intervals is 100% water saturated for now. In this example we adjust the m and Rw to give us 100% water saturations from logs for this lower interval. You can then adjust the n to give you the expected BVW from the Buckles plot. 
-
+>---
+>
 >![Panel_log](pickett_log_sats2.gif)
+>
+---
