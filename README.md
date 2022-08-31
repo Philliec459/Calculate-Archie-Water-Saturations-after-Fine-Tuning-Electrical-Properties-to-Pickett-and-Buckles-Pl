@@ -10,9 +10,8 @@ Panel provides the type of interactivity that allows the user to fine-tune their
 In this example well, the interval at the bottom of the depth plot appears to be wet. However, is this interval at 100% Sw or does it contain some residual oil? We do not have residual fluid saturations from core to allow us to make that determination, so we have made the assumption that this intervals is 100% water saturated for now. 
 
 In this example we adjust the m and Rw to give us 100% water saturations from logs for this lower interval. You can then adjust n to give you the expected BVW from the Buckles plot. We have added an Archie 'a' tortuosity parameter slider too for you to experiment with.
-
-From Craig Phillips GitHub repositories: (https://github.com/Philliec459)
-
+>---
+>From Craig Phillips GitHub repositories: (https://github.com/Philliec459)
 >---
 >
 >![Panel_log](pickett_log_sats3.gif)
