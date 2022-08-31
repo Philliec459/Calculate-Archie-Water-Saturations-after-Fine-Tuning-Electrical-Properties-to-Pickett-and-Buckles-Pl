@@ -15,6 +15,6 @@ From Craig Phillips GitHub repositories: (https://github.com/Philliec459)
 
 >---
 >
->![Panel_log](pickett_log_sats2.gif)
+>![Panel_log](pickett_log_sats3.gif)
 >
 ---
