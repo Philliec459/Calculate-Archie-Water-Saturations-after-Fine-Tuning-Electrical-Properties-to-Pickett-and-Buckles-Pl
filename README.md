@@ -10,6 +10,11 @@ Panel provides the type of interactivity that allows the user to fine-tune their
 In this example well, the interval at the bottom of the depth plot appears to be wet. However, is this interval at 100% Sw or does it contain some residual oil? We do not have residual fluid saturations from core to allow us to make that determination, so we have made the assumption that this intervals is 100% water saturated for now. 
 
 In this example we adjust the m and Rw to give us 100% water saturations from logs for this lower interval. You can then adjust n to give you the expected BVW from the Buckles plot. We have added an Archie 'a' tortuosity parameter slider too for you to experiment with.
+
+You can run this application by launching the Jupyter Notebool (*.ipynb file) and then running the entire file, or you can run the python .py file using the panel **Editor + Server** method with the following command line:
+
+    panel serve interactive_Sw_Pickett_Buclkes_DepthPlot_ver4.py --show --autoreload
+    
 >---
 >From Craig Phillips GitHub repositories: (https://github.com/Philliec459)
 >---
