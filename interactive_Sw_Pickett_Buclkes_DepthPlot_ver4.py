@@ -230,21 +230,23 @@ def Plot_sw(a, m, n, rw):
     axs['middle'].grid(True, which='both',ls='-' ,color='gray')
 
     
-    
+    phit_buck_plot = (0.05,0.07,0.1,0.15,0.2,0.25,0.3,0.35)
+    sw_buck_plot   = (1,0.75,0.5,0.33,0.25,0.2,0.16,0.14)
     
     
     # Buckles Plot
     #ax3.plot(swt, porarray, 'bo')
     #ax3.scatter(swt, porarray, bvw,c=bvw,  cmap="rainbow")
     axs['bottom'].scatter(swt, porarray,    marker='d',c=bvw,  cmap="gist_rainbow")
+    axs['bottom'].plot(sw_buck_plot,phit_buck_plot,  '--r', lw=6 , label= 'BVW Target')
     axs['bottom'].set_xlim(0.0,1.0) 
     axs['bottom'].set_ylim(0.0,0.35)
     axs['bottom'].set_ylabel('PHIT [v/v]', color = 'blue')
     axs['bottom'].set_xlabel('Swt [v/v]' , color = 'blue')
+    axs['bottom'].legend()
     axs['bottom'].grid()
-
-    #plt.show()
     
+       
     return fig
 
 
