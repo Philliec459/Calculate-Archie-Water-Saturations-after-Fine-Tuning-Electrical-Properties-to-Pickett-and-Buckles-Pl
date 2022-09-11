@@ -14,6 +14,12 @@ In this example we adjust the m and Rw to give us 100% water saturations from lo
 You can run this application by launching the Jupyter Notebool (*.ipynb file) and then running the entire file, or you can run the python .py file using the panel **Editor + Server** method with the following command line:
 
     panel serve interactive_Sw_Pickett_Buclkes_DepthPlot_ver4.py --show --autoreload
+
+There is also another way to run a .py file and that is the traditional method:
+
+    python pickett_real-time.py
+
+With the help from Marc at Panel we were able to solve this problem. This method was necessary for implementation in Geolog. 
     
 >---
 >From Craig Phillips GitHub repositories: (https://github.com/Philliec459)
