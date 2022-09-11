@@ -20,6 +20,28 @@ There is also another way to run a .py file and that is the traditional method:
     python pickett_real-time.py
 
 With the help from Marc at Panel we were able to solve this problem. This method was necessary for implementation in Geolog. 
+
+    def app():
+        return pn.Row(pn.Column(button,  logo, text, pane[0], width=400, sizing_mode="fixed"), 
+
+    pn.layout.VSpacer(width=10),pane[1])
+
+    pn.serve({"localhost:": app}, port=5006)
+
+We also added a button to kill the process:
+
+    from bokeh.models.widgets import Button
+    import sys
+
+    def button_callback():
+	    sys.exit()  # Stop the server
+    # Button to stop the server
+    button = Button(label="Stop", button_type="success")
+    button.on_click(button_callback)
+
+
+
+
     
 >---
 >From Craig Phillips GitHub repositories: (https://github.com/Philliec459)
